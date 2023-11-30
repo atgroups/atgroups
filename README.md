@@ -147,3 +147,11 @@ while True:
  if counter==3:
  pygame.quit()
  break
+ 6.a
+ def fact(n):
+if n==0:
+return 1
+else:
+return n*fact(n-1)
+n=int(input("Enter the value of n:"))
+print("The factorial is",fact(n))
